@@ -1,10 +1,10 @@
 package refactorizaciondam;
 
-public class Persona {
+public class PersonaBase {
     protected String nombre;
     protected String dni;
 
-    public Persona(String nombre, String dni) {
+    public PersonaBase(String nombre, String dni) {
         this.nombre = nombre;
         this.dni = dni;
     }

@@ -32,4 +32,8 @@ public class Desarrollador extends Empleado {
         System.out.println("Desarrollador: " + nombre + " | Lenguaje: " + lenguajePrincipal +
                 " | Salario: " + calcularSalario());
     }
+
+    public void realizarTareaTecnica(){
+        System.out.println(nombre + " está realizando una tarea técnica");
+    }
 }

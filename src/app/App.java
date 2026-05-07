@@ -1,4 +1,8 @@
-package refactorizaciondam;
+package app;
+
+import refactorizaciondam.AdministradorSistemas;
+import refactorizaciondam.Desarrollador;
+import refactorizaciondam.Proyecto;
 
 public class App {
     public static void main(String[] args) {
